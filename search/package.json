@@ -1,0 +1,11 @@
+{
+  "dependencies": {
+    "sass": "^1.77.0"
+  },
+  "scripts": {
+    "sass-global": "sass --watch src/global.scss:src/global.css && sass --watch src/style.scss:src/style.css && sass --watch src/GoogleImageSearch/style.scss:src/GoogleImageSearch/style.css && sass --watch src/GoogleAdvancedSearch/style.scss:src/GoogleAdvancedSearch/style.css",
+    "sass-regular": "sass --watch src/style.scss:src/style.css ",
+    "sass-image": "sass --watch src/GoogleImageSearch/style.scss:src/GoogleImageSearch/style.css",
+    "sass-advanced": "sass --watch src/GoogleAdvancedSearch/style.scss:src/GoogleAdvancedSearch/style.css"
+  }
+}
